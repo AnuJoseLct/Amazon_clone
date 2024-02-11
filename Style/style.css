@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+header{
+    border: 10px solid black;
+
+}
+main{
+    border: 10px solid red;
+    height: fit-content;
+
+}
+footer{
+    border: 10px solid blue;
+    height: fit-content;
+
+}
+
+.H1 {
+    height: 35px;
+    border: 5px solid burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.H2 {
+    height: 95px;
+    border: 5px solid grey;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.H3 {
+    height: 35px;
+    border: 5px solid coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.H1-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.H1-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.H2-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.H2-2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.H1-11 {
+    border: 5px solid blueviolet;
+    ;
+}
+
+.H1-21 {
+    border: 5px solid red;
+    ;
+}
+
+.H2-21 {
+    border: 5px solid yellowgreen;
+}
+.H3-1{
+    border: 5px solid hotpink;
+}
+
+.H4{
+    height: 50px;
+    border: 5px solid pink;
+    display: none;
+
+}
+
+@media screen and (max-width: 1080px) {
+
+    .H1{
+        display: none;
+    }
+    .H2{
+        display: none;
+    }
+    .H3 {
+
+        display: none;
+    }
+    .H4{
+        display: flex;
+        height: 50px;
+        border: 5px solid pink;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .H4-2{
+        border: 5px solid black;
+    }
+    .H4-21{
+        border: 5px solid red;
+    }
+
+}
