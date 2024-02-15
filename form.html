@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <H1>Registration Form</H1>
+    </header>
+    <main>
+        <form action="action.php" method="post">
+         <input type="text" placeholder="Username">
+         <br>
+         <br>
+         <input type="password" placeholder="Password">
+         <br>
+         <h3>Slect your class</h3>
+
+    <label for="1">
+        <input type="radio" value="ClassXI" name="class" id="1">Class XI
+    </label>
+    <br>
+    <label for="2">
+        <input type="radio" value="ClassXII" name="class" id="2">Class XII
+    </label>
+    <br>
+    <label for="3">
+        <input type="radio" value="ClassXIII" name="class" id="3">Class XIII
+    </label>
+         
+         
+         <br>
+         <h3>Select your favorite subject</h3>
+         <input type="checkbox" value="Math" name="subject" id="2">Math
+         <br>
+         <input type="checkbox" value="Physic" name="subject" id="20">Physic
+         <br>
+         <input type="checkbox" value="Chemestry" name="subject" id="21">Chemestry
+         <br>
+         <input type="checkbox" value="CS" name="subject" id="22">Computer science
+         <br>
+         <br>
+         Select your city
+         <select name="city" id="3">
+            <option value="Delhi" id="31">Delhi</option>
+            <option value="Mumbai" id="32">Mumbai</option>
+            <option value="Bangalore" id="33">Bangalore</option>
+            <option value="Chennai" id="34">Chennai</option>
+         </select>
+         <br>
+         <br>
+         <textarea name="Feedback" Value="Feedback" id="4" cols="30" rows="5" placeholder=" Enter your Feedback"></textarea>
+         <marquee behavior="scroll" direction=" right">Created by Anupam Jose</marquee>
+        </form>
+
+        <input type="submit" value="submit" >
+    </main>
+    
+</body>
+</html>
