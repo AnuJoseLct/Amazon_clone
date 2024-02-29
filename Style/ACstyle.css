@@ -1,0 +1,67 @@
+body{
+    background-color: burlywood;
+    margin: 0;
+}
+header{
+    border: 2px solid black;
+    height: 100px;
+    /* background-color: aqua; */
+}
+main{
+    border: 2px solid black;
+    height: 100px;
+    background-color: greenyellow;
+}
+footer{
+    /* border: 2px solid black; */
+    height: 100px;
+    background-color:black;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#navbar{
+    border: 2px solid black;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    
+
+
+}
+#navam1{
+    color: orange;
+    
+}
+#searchB{
+    background-color: orange;
+    color: aliceblue;
+}
+#Content{
+    height: 50px;
+    border: 2px solid black;
+    /* position: sticky; */
+    /* top: 100px; */
+
+}
+.contentBox{
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#footer{
+    color: aliceblue;
+    text-align: center;
+    position: sticky;
+    top: 100px;
+}
+

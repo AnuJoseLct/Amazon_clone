@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+#box1{
+    background-color: red;
+    background-image: url(../Images/SFU.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#box2{
+    background-color: green;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    z-index: 1;
+}
+#box3{
+    background-color: blue;
+    position: relative;
+}
+#box4{
+    background-color: yellow;
+    position : relative;
+    top: 10px;
+}
+#lovenature{
+    background-color: black;
+    /* display: relative; */
+    top: 0px;
+    left: 100px;
+    position: sticky;
+}
