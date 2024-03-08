@@ -19,10 +19,11 @@
 
 }
 .border{
-    border: 2px solid transparent;
+    border: 1.5px solid transparent;
 }
 .border:hover{
-    border: 2px solid white;
+    border: 1.5px solid white;
+    border-radius: 5%;
 }
 /* left nav */
 .left_nav{
@@ -71,7 +72,7 @@ align-items: center;
 .centr_nav{
     /* background-color: aqua; */
     height: 40px;
-    width: 1000px;
+    width: 1350px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -121,6 +122,9 @@ align-items: center;
 }
 
 
+.right_nav p {
+    font-size: .85rem;
+}
 .right_nav{
     /* height: 60px; */
     width: 300px;
@@ -133,13 +137,6 @@ span{
     font-size: .70rem;
     color: #cccccc;
 }
-.nav_signin{
-
-    font-size: .85rem;
-}
-.nav_RO{
-    font-size: .85rem;
-}
 
 .nav_cart i {
     font-size: 30px;
@@ -151,13 +148,42 @@ span{
     font-size: .85rem;
 }
 
-/* .icon_cart{
-    font-size: 1.5rem;
-} */
+/* Nav2 */
 
-.txt_cart{
+.nav2{
+    background-color: #222f3d;
+    display: flex;
+    color : white;
+    font-weight: 550;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav2_All{
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    /* height: 95%; */
+    
+}
+.nav2_All p{
+    margin-left:5px;
     font-size: .85rem;
-    /* margin-top: 15px; */
+    
+    
+}
+.nav2_All i{
+    font-size: 1.2rem;
+    
+}
+.nav2_Options p{
+    display: inline;
+    font-size: .85rem;
+    padding : 11px;
+}
+
+.nav2_Options{
+    width: 95%;
 }
 
 
