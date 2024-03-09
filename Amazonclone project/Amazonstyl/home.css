@@ -186,6 +186,42 @@ span{
     width: 95%;
 }
 
+/* Main section */
+main{
+    background-color: #E3E6E6;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(227, 230, 230, 0), rgba(227, 230, 230, 1)), url(../Images/Mainbgi.png);
+    background-size: cover;
+    
 
+}
+.Hero_section{
+    
+    height : 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position : relative;
+
+
+
+}
+.hero_msg{
+    height: 40px;
+    width: 100%;
+    background-color: #f5f6f6;
+    position : relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+#hm_a1{
+    color: #007185;
+    font-size: .85rem;
+    text-decoration: none;
+}
 
 
