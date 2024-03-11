@@ -188,23 +188,31 @@ span{
 
 /* Main section */
 main{
-    background-color: #E3E6E6;
-    height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(227, 230, 230, 0), rgba(227, 230, 230, 1)), url(../Images/Mainbgi.png);
+    /* border: 2px solid red; */
+    background-color: #f5f6f6;
+    height: fit-content;
+    /* height: em; */
+    /* background-image: linear-gradient(to bottom, rgba(227, 230, 230, 0), rgba(227, 230, 230, 1)), url(../Images/Mainbgi.png); */
     background-size: cover;
-    
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    /* overflow:auto;  */
 
 }
+
+/* Hero section */
 .Hero_section{
-    
-    height : 400px;
+    /* border: 2px solid black; */
+    background-image: url(../Images/Mainbgi.png);
+    background-size: cover;
+    height: 325px;
     display: flex;
     justify-content: center;
     align-items: end;
     position : relative;
-
-
-
+    /* margin-left : 120px; */
 }
 .hero_msg{
     height: 40px;
@@ -215,6 +223,7 @@ main{
     align-items: center;
     justify-content: center;
     margin: 30px;
+    /* margin-top: 300px; */
 
 }
 
@@ -225,3 +234,129 @@ main{
 }
 
 
+/* Content section */
+
+.Content_section{
+    /* border: 2px solid red; */
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f5f6f6;
+    /* margin-left: 120px; */
+}
+.cnt_main_box{
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    display : flex;
+    flex-direction:column;
+    margin: 10px;
+    
+
+}
+
+.Box1_txt h2{
+    font-size: 1.3rem;
+    text-align: left;
+
+    height: 50px;
+    
+    
+}
+.Box1_txt{
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    margin: 15px;
+    margin-left: 25px;
+    
+
+}
+.cnt_box{
+    border: 2px solid black;
+    margin-left: 25px;
+    height: 75%;
+    width: 85%;
+}
+#Box1{
+    background-image: url(../Images/Box1.jpg);
+    background-size: cover;
+    
+}
+#Box2{
+    background-image: url(../Images/Box2.jpg);
+    background-size: cover;
+    
+}
+#Box3{
+    background-image: url(../Images/Box3.jpg);
+    background-size: cover;
+}
+#Box4{
+    background-image: url(../Images/Box4.jpg);
+    background-size: cover;
+}
+#Box5{
+    background-image: url(../Images/Box5.jpg);
+    background-size: cover;
+}
+#Box6{
+    background-image: url(../Images/Box6.jpg);
+    background-size: cover;
+}
+#Box7{
+    background-image: url(../Images/Box7.jpg);
+    background-size: cover;
+}
+#Box8{
+    background-image: url(../Images/Box8.jpg);
+    background-size: cover;
+}
+.cnt_box_L{
+    height: 280px;
+    width: 98%;
+    background-color: white;
+    margin:  10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.cnt_box_L_cld{
+    
+    height: 250px;
+    width: 97%;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.Box_L_cnt{
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 18%;
+}
+#Box9_1{
+    background-image: url(../Images/Box9_1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#Box9_2{
+    background-image: url(../Images/Box9_2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#Box9_3{
+    background-image: url(../Images/Box9_3.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#Box9_4{
+    background-image: url(../Images/Box9_4.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#Box9_5{
+    background-image: url(../Images/Box9_5.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
