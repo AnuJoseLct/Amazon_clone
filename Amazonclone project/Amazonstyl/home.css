@@ -3,6 +3,10 @@
     font-family: Arial;
     border: border-box;
 }
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
 /* Nav bar */
 .navbar{
     /* border: 2px solid black; */
@@ -360,3 +364,99 @@ main{
     background-size:contain;
     background-repeat: no-repeat;
 }
+
+/* Footer */
+
+footer{
+    height : fit-content;
+}
+.nav_Footer_bk2nav{
+    height: 50px;
+    background-color: #294253;
+}
+.nav_Footer_bk2nav span{
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav_Footer_acciblity{
+    height: 400px;
+    background-color: #232f3e;
+}
+.nav_Footer_acc_box1{
+    height: 320px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav_footer_acc_content{
+    height: 80%;
+    width: 12%;
+    margin: 40px;
+    color: white;
+
+}
+.nav_Footer_acc_box2{
+    height: 80px;
+    border-top: 1px solid rgb(81, 84, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.nav_Footer_image{
+    position: absolute;
+    background-image: url(../Images/amz_logo2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 113px;
+    
+}
+.nav_Footer_link{
+    height: 300px;
+    background-color: #131A22;
+    font-size: .7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ul {
+    list-style-type: none;
+    font-weight: 300;
+    padding-left: 0;
+    margin-top: 10px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+table{
+    color: white;
+    border-spacing: 30px;
+}
+.nav_Footer_link span{
+    font-size: .7rem;
+    color: rgb(172, 172, 172);
+    margin-right: 30px;
+    
+}
+.nav_foote_end ul li{
+    display: inline-table;   
+    margin-left:8px ; 
+}
+.nav_foote_end{
+    text-align: center;
+}
+/* hr{
+    border-top: 1px dotted rgb(81, 84, 121);
+    margin : 10px;
+} */
+
+
